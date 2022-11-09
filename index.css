@@ -1,0 +1,241 @@
+#page{
+    height: 1200px;
+}
+#top_box {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    height: 20pz;
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 9px 1px 9px
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: sticky;
+    /* border: 2px solid black; */
+    position: sticky;
+    position: static;
+
+
+}
+
+#head_box1>img {
+    width: 81px;
+    height: 23px;
+    align-items: center;
+    /* justify-content: flex-start; */
+    float: left;
+    box-sizing: border-box;
+    margin-right: 114px;
+    padding-right: -20px;
+    margin-left: 46px;
+    margin-top: 3px;
+  
+
+
+
+    /* border-radius: 26%; */
+}
+
+
+#head_box1 {
+    flex: 1;
+    text-align: left;
+    /* justify-content: flex-start; */
+    float: left;
+    margin: 0 -2px;
+}
+
+#head_box2>nav>a {
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    /* font-style: italic; */
+
+    font-weight: 501;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#head_box3>i {
+    padding: 12px;
+    /* justify-content: flex-end; */
+
+}
+#head_box3{
+    flex: 1;
+    text-align: right;
+    /* justify-content: flex-end; */
+
+    margin: 0 -10px;
+}
+
+#head_box2 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#box1{
+    /* border: 2px solid black; */
+    margin-top: 21px;
+    display: flex;
+
+
+
+}
+#box1 div{
+    /* border: 2px solid black; */
+    width: 80;
+    width: 40%;
+    /* max-width: ; */
+    /* max-width: ; */
+    margin: 12px;
+    /* height:490px; */
+    
+}
+#box1 img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    line-height: 1px;
+}
+
+#links{
+    display: flex;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 1000;
+    justify-content: space-between;
+    /* font-size: 32px !important; */
+}
+#box2{
+    font-weight: 1000;
+}
+#box2 h1{
+    font-weight: 1000;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  #back{
+    height: auto;
+    width: auto;
+    color: white;
+    text-align: center;
+    padding: 175px;
+    background-image: url("https://i1.wp.com/demo4.drfuri.com/razzi/wp-content/uploads/sites/14/2020/12/about-us-banner.jpg");
+  }
+
+
+  /* ------------------------ Card screen */
+  #card {
+    margin-top: 12px;
+    display: grid;
+    padding: 12%;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 3px solid rgb(0, 0, 0); */
+    grid-row-gap: 9%;
+
+    margin: auto;
+    height: auto;
+  }
+ #card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #card div {
+    margin: 12px;
+    margin: auto;
+    width: 80%;
+    /* border: 3px solid rgb(0, 0, 0); */
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  footer{
+
+    background-image: url("https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/footer_bg_1920.png");
+}
+  #fbox {
+    color: aliceblue;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    /* background-image: url("https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/footer_bg_1920.png"); */
+  }
+  #ba {
+    display: flex;
+    color: aliceblue;
+    /* border: 2px solid rgb(254, 249, 249); */
+  }
+  #ba div {
+    color: aliceblue;
+    /* border: 2px solid rgb(254, 249, 249); */
+    padding: 14px;
+  }
+
+  #i {
+    color: aliceblue;
+    display: block;
+    padding-top: 38px;
+  }
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  #fbox3 {
+      color: aliceblue;
+    /* background-image: url("https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/footer_bg_1920.png"); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #fbox3_1 {
+    margin-left: 37px;
+  }
+  #fbox3_2 {
+    margin-right: 37px;
+  }
+  #i {
+    height: auto;
+    text-align: center;
+    /* font-weight: 400; */
+    line-height: 0.33;
+    /* font-size: 28px; */
+    font-family: system-ui;
+  }
+  #footerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 12px;
+  }
+  #ema {
+    padding: 12px;
+    width: 46%;
+    margin: 8px;
+  }
+  #sub {
+    padding: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-family: system-ui;
+  }
