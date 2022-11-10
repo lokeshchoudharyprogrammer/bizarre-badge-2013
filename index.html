@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/bfd712a6e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <style>
+      body {
+        height: 1200px;
+      }
+      header {
+        overflow: hidden;
+        border-radius: 3px;
+        margin-left: -9px;
+        margin-right: -9px;
+        width: -moz-available;
+        top: 0px;
+        position: fixed;
+        background: #32aeb1;
+        color: aliceblue;
+      }
+      header > div {
+        height: 62px;
+
+        display: flex;
+      }
+
+      #hbox1 img {
+        max-width: 100px;
+        max-height: 100px;
+        align-items: center;
+        margin-top: 12px;
+      }
+      #hbox2 input {
+        width: 400px;
+        margin-top: 30ppx;
+        height: 38px;
+        margin-top: 8px;
+        max-width: 100%;
+        border-radius: 6px;
+        border: none;
+      }
+      #hbox3 {
+        display: flex;
+        padding: 16px;
+      }
+      #hbox3 i {
+        padding-right: 70px;
+      }
+      header > div {
+        justify-content: space-around;
+      }
+      #page {
+        margin-top: 90px;
+      }
+      #hunderbox1 {
+        display: flex;
+        justify-content: center;
+        color: #4e4949;
+      }
+      #hunderbox1 div {
+        padding-left: 8px;
+      }
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+      #silde {
+        margin-top: 12px;
+      }
+      #undersilder {
+        display: flex;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #undersilder > div {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 284px;
+        border-radius: 9px;
+      }
+      #undersilderbox {
+        margin-top: 1px;
+      }
+      #undersilderbox1 {
+        display: flex;
+      }
+    </style>
+
+    <header>
+      <div>
+        <div id="hbox1">
+          <a href="">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJdsEQes538UVA_w76d5TV1frufQ1KGaIDiJDptMnH7hxM71kzRRllMpOjRV-cJU9533b19VZoCSsHvyHnMKZb0S5YkHqNEnojK868VQ6BlIlqp58KJqK0UN88eJA6wkxiSXCyuUK3xLkEwrU5Cpb4YIGOwwEZcqHkWGPcqib2__inNDjixPMnzDJQ/w945-h600-p-k-no-nu/Ocean2.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div id="hbox2">
+          <input
+            type="search"
+            name=""
+            id=""
+            placeholder="Search for medicine & wellness products…"
+          />
+        </div>
+        <div id="hbox3">
+          <div>
+            <i class="fa-solid fa-file-lines"></i>
+            <div><span>Upload</span></div>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div>
+              <span>Card</span>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+
+            <div>
+              <span>Sign in /</span>
+              <span> Sign up</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="page">
+      <div id="hunderbox1">
+        <div>COVID Essentials</div>
+        <div>Diabetes</div>
+        <div>Eyewear</div>
+        <div>Ayush</div>
+        <div>Ayurvedic</div>
+        <div>Homeopathy</div>
+        <div>Fitness</div>
+        <div>Mom & Baby</div>
+        <div>Devices</div>
+        <div>Surgicals</div>
+        <div>Sexual Wellness</div>
+        <div>Treatments</div>
+      </div>
+
+      <!-- ---------------------------------- -->
+      <div id="silde">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1666362102_Home_Bannernmsnew.jpg"
+                alt="Los Angeles"
+                width="1100"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1667832066_Web_Home_Bannercabbb.jpg"
+                alt="Chicago"
+                width="1100"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1666355540_Home_Bannercold.jpg"
+                alt="New York"
+                width="1100"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1666362146_Home_Bannernms20.jpg"
+                alt="New York"
+                width="1100"
+                height="500"
+              />
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ------------------------------------>
+
+      <div id="undersilder">
+        <div id="undersilderbox1">
+          <div>
+            <a href="">
+              <img
+                src="https://www.netmeds.com/assets/gloryweb/images/icons/Wellnessnew.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div>
+            <div><h5>Order Medicine</h5></div>
+            <div>Save Upto 25% off</div>
+          </div>
+        </div>
+        <div id="undersilderbox1">
+          <div>
+            <a href="">
+              <img
+                src="https://www.netmeds.com/assets/gloryweb/images/icons/Wellnessnew.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div>
+            <div><h5>Order Medicine</h5></div>
+            <div>Save Upto 25% off</div>
+          </div>
+        </div>
+        <div id="undersilderbox1">
+          <div>
+            <a href="">
+              <img
+                src="https://www.netmeds.com/assets/gloryweb/images/icons/Wellnessnew.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div>
+            <div><h5>Order Medicine</h5></div>
+            <div>Save Upto 25% off</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
