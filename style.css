@@ -1,0 +1,91 @@
+header {
+    overflow: hidden;
+    border-radius: 3px;
+    margin-left: -9px;
+    margin-right: -9px;
+    width: -moz-available;
+    top: 0px;
+    position: fixed;
+    background: #32aeb1;
+    color: aliceblue;
+}
+
+header>div {
+    height: 62px;
+
+    display: flex;
+}
+
+#hbox1 img {
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#hbox2 input {
+    width: 400px;
+    margin-top: 30ppx;
+    height: 38px;
+    margin-top: 8px;
+    max-width: 100%;
+    border-radius: 6px;
+    border: none;
+}
+
+#hbox3 {
+    display: flex;
+    padding: 16px;
+}
+
+#hbox3 i {
+    padding-right: 70px;
+}
+
+header>div {
+    justify-content: space-around;
+}
+
+#page {
+    margin-top: 90px;
+}
+
+#hunderbox1 {
+    display: flex;
+    justify-content: center;
+    color: #4e4949;
+}
+
+#hunderbox1 div {
+    padding-left: 8px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#silde {
+    margin-top: 12px;
+}
+
+#undersilder {
+    display: flex;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#undersilder>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 284px;
+    border-radius: 9px;
+}
+
+#undersilderbox {
+    margin-top: 1px;
+}
+
+#undersilderbox1 {
+    display: flex;
+}
