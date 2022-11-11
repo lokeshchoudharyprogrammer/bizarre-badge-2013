@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <link
       rel="stylesheet"
@@ -102,6 +102,33 @@
       #undersilderbox1 {
         display: flex;
       }
+      #prepay {
+        display: flex;
+      }
+      #premain {
+        width: 97%;
+        margin: auto;
+        display: flex;
+        margin-top: 43px;
+        justify-content: space-between;
+      }
+      #btnpre {
+        border: none;
+        padding: 1px 5px 4px 10px;
+        border-radius: 7px;
+        background-color: #06aebf;
+      }
+      #preimg {
+        margin-left: 37px;
+      }
+      .sign {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .sign:hover {
+        text-decoration: none;
+        color: aliceblue;
+      }
     </style>
 
     <header>
@@ -124,8 +151,10 @@
         </div>
         <div id="hbox3">
           <div>
-            <i class="fa-solid fa-file-lines"></i>
-            <div><span>Upload</span></div>
+            <a class="sign" href="./sign.html">
+              <i class="fa-solid fa-file-lines"></i>
+              <div><span>Upload</span></div>
+            </a>
           </div>
           <div>
             <i class="fa-solid fa-cart-shopping"></i>
@@ -137,8 +166,10 @@
             <i class="fa-solid fa-user"></i>
 
             <div>
-              <span>Sign in /</span>
-              <span> Sign up</span>
+              <a class="sign" href="./sign.html">
+                <span>Sign in /</span>
+                <span> Sign up</span>
+              </a>
             </div>
           </div>
         </div>
@@ -260,6 +291,573 @@
           <div>
             <div><h5>Order Medicine</h5></div>
             <div>Save Upto 25% off</div>
+          </div>
+        </div>
+      </div>
+     
+      <div id="pay">
+        <h3>Payment Partner Offers</h3>
+      </div>
+
+      <div id="pa">
+        <div id="payimg">
+          <a href="">
+            <img
+              src="https://www.netmeds.com/images/cms/offers/1657030565_Simpl_Icon.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            Get up to Rs. 1000 Simpl Cashback (5%) on your FIRST-EVER payment
+            via Simpl for ANY purchases* of ANY value on Netmeds. This offer is
+            valid from 1st to 30th November 2022. *T&C
+          </a>
+        </div>
+        <div id="payimg">
+          <a href="">
+            <img
+              src="https://www.netmeds.com/images/cms/offers/1654235738_Icon_256x256.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            Get up to Rs. 1000 Simpl Cashback (5%) on your FIRST-EVER payment
+            via Simpl for ANY purchases* of ANY value on Netmeds. This offer is
+            valid from 1st to 30th November 2022. *T&C
+          </a>
+        </div>
+      </div>
+
+      <div id="premain">
+        <div id="prepay">
+          <div>
+            <h3>Previous Orders</h3>
+            <p>Your previously ordered products</p>
+            <button id="btnpre">View All</button>
+          </div>
+          <div>
+            <img
+              id="preimg"
+              src="https://www.netmeds.com/assets/gloryweb/images/icons/new-icons/previous_orders.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div id="prepay">
+          <div>
+            <h3>Beauty Products</h3>
+            <p>Save Upto 40% off</p>
+            <button id="btnpre">Explore Beauty</button>
+          </div>
+          <div>
+            <img
+              id="preimg"
+              src="https://www.netmeds.com/assets/gloryweb/images/icons/new-icons/beauty_products.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <style>
+        .trebox {
+          display: flex;
+          gap: 14px;
+          margin: 9px 9px 9px 9px;
+        }
+        .trebox img {
+          width: 100%;
+        }
+      </style>
+      <div>
+        <h2 style="margin-left: 12px; font-style: oblique">Trending Today</h2>
+        <div class="trebox">
+          <div>
+            <a href="">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1667462507_Web_Home_Page_Mini_Banner-436X224__.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1666348912_Gynoveda_mini_web.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img
+                src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1667584638_Personal_Care_Week_Mini-banner_web.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <style>
+      
+      </style>
+      <div id="limiboxmain">
+        <h2 style="margin-left: 12px; font-style: oblique">
+          Limited Time Deals
+        </h2>
+        <div id="limitbox">
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/977198/netmeds_3_ply_face_mask_with_nose_pin_100s_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/1042880/truuth_adult_diaper_strap_m_1s_476355_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/977198/netmeds_3_ply_face_mask_with_nose_pin_100s_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/902226/sahyog_wellness_hot_water_bottle_bag_red_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/1038910/tynor_life_heating_pad_ortho_mini_1s_394603_0_0.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/917051/la_shield_lite_spf_30_pa_anti_tanning_sunscreen_gel_30_gm_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="limiboxmain">
+        <h2 style="margin-left: 12px; font-style: oblique">
+          Brand Days - Inlife Upto 70% off
+        </h2>
+        <div id="limitbox">
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/858167/inlife_vitamin_d3_2000_iu_capsules_60s_78003_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/858545/inlife_safed_musli_extract_500_mg_vegetarian_capsule_60s_78267_0_2.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/858152/inlife_glucosamine_msm_calcium_vitamin_d3_tablets_60s_77984_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/858166/inlife_vitamin_d3_1000_iu_capsules_60s_78002_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/858141/inlife_flaxseed_oil_500_mg_capsules_60s_77973_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/858544/inlife_ginkgo_biloba_capsule_60s_78266_0_2.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="limiboxmain">
+        <h2 style="margin-left: 12px; font-style: oblique">
+          Brand Days - Cetaphil Upto 32% off
+        </h2>
+        <div id="limitbox">
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/892144/cetaphil_baby_diaper_cream_70gm_114966_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/909961/cetaphil_baby_mild_bar_75gm_115692_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/410529/cetaphil_baby_daily_lotion_400ml_52341_0_3.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/412634/cetaphil_baby_massage_oil_200ml_54140_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/412635/cetaphil_baby_shampoo_200ml_54141_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+          <div>
+            <div>
+              <img
+                src="https://www.netmeds.com/images/product-v1/150x150/887115/cetaphil_baby_gentle_wash_and_shampoo_230ml_81117_0_1.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Netmeds 3 Ply Face <br />Mask With Nose Pi..</h6>
+            </div>
+            <h6>₹ 220.00</h6>
+            <h6>UPTO &8% off</h6>
+            <button id="limitbtn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    
+      <div id="shopby">
+        <h4 style="margin-left: 12px; font-style: oblique">Shop by Category</h4>
+
+        <div id="shopcat">
+          <div>
+            <img
+              src="https://www.netmeds.com/images/category/3107/thumb/dressing_1.jpg"
+              alt=""
+            />
+            <h5 style="text-align: center">Dressing</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/category/501/thumb/family_nutrition_1.jpg"
+              alt=""
+            />
+            <h5 style="text-align: center">family Nutrition</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/category/3141/thumb/respiratory_supplies_1.jpg"
+              alt=""
+            />
+            <h5 style="text-align: center">Respiratory Supplies</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/category/3758/thumb/lotions_creams_0.jpg"
+              alt=""
+            />
+            <h5 style="text-align: center">Lotions & Creams</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/category/v1/491/thumb/homeopathy_2.jpg"
+              alt=""
+            />
+            <h5 style="text-align: center">Homeopathy</h5>
+          </div>
+        </div>
+      </div>
+
+     
+      <div style="margin-top: 32px">
+        <h4 style="margin-left: 12px; font-style: oblique">New On Netmeds</h4>
+        <div id="shopca">
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1667589313_anuja_-mini-banner-for-web.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1665772763_Sunova__mini_banner_for_web.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1667589503_Kesavardhini_mini_web.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="shopby">
+        <h4 style="margin-left: 12px; font-style: oblique">Top Brands</h4>
+
+        <div id="shopcat">
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/himalaya.jpg?v=14"
+              alt=""
+            />
+            <h5 style="text-align: center">Dressing</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/accu-chek.jpg?v=14"
+              alt=""
+            />
+            <h5 style="text-align: center">family Nutrition</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/dabur.jpg?v=14"
+              alt=""
+            />
+            <h5 style="text-align: center">Respiratory Supplies</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/manforce.jpg?v=14"
+              alt=""
+              width="198px"
+            />
+            <h5 style="text-align: center">Lotions & Creams</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/cetaphil.jpg?v=14"
+              alt=""
+              width="100%"
+              height="186px"
+            />
+            <h5 style="text-align: center">Homeopathy</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="exbox">
+        <div id="exbox2">
+          <div id="exbox3">
+            <div id="underex1">
+              <img
+                src="https://www.netmeds.com/assets/gloryweb/images/icons/new-icons/netmeds_first_membership.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h2>Netmeds First Membership</h2>
+              <ul>
+                <li>Get special discounts and offers on Netmeds services.</li>
+                <li>
+                  Get 2.5% NMS Cash on pre-paid, Medicine orders of ANY value!
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="ex2box">
+            <div><h4 id="exh">Starting At 299</h4></div>
+            <div>
+              <button id="explan">Explore Plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="shopby">
+        <h4 style="margin-left: 12px; font-style: oblique">
+          Categories in Focus
+        </h4>
+
+        <div id="shopcat">
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/himalaya.jpg?v=14"
+              alt=""
+            />
+            <h5 style="text-align: center">Dressing</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/accu-chek.jpg?v=14"
+              alt=""
+            />
+            <h5 style="text-align: center">family Nutrition</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/dabur.jpg?v=14"
+              alt=""
+            />
+            <h5 style="text-align: center">Respiratory Supplies</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/manforce.jpg?v=14"
+              alt=""
+              width="198px"
+            />
+            <h5 style="text-align: center">Lotions & Creams</h5>
+          </div>
+          <div>
+            <img
+              src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/cetaphil.jpg?v=14"
+              alt=""
+              width="100%"
+              height="186px"
+            />
+            <h5 style="text-align: center">Homeopathy</h5>
           </div>
         </div>
       </div>
