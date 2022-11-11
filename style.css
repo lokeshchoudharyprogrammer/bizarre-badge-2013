@@ -1,11 +1,11 @@
 header {
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 3px;
     margin-left: -9px;
     margin-right: -9px;
     width: -moz-available;
-    top: 0px;
-    position: fixed;
+    /* top: 0px; */
+    /* position: fixed; */
     background: #32aeb1;
     color: aliceblue;
 }
@@ -89,3 +89,147 @@ header>div {
 #undersilderbox1 {
     display: flex;
 }
+
+#prepay {
+    display: flex;
+}
+
+#premain {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    margin-top: 43px;
+    justify-content: space-between;
+}
+
+#btnpre {
+    border: none;
+    padding: 1px 5px 4px 10px;
+    border-radius: 7px;
+    background-color: #06aebf;
+}
+
+#preimg {
+    margin-left: 37px;
+}
+
+#pa {
+    margin-top: 21px;
+    display: flex;
+    gap: 26px;
+  }
+  #pay > h3 {
+    margin-top: 21px;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  #payimg img {
+    width: 59%;
+  }
+  #payimg {
+    display: flex;
+    align-items: center;
+  }
+  #payimg a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .sign {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .sign:hover {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+
+  #limitbox {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #limitbox > div {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  #limitbtn {
+    border: none;
+    border-radius: 13px;
+    margin-left: 9px;
+    padding: 4px 26px 4px 38px;
+    border-radius: 12px;
+    border-color: white;
+    background-color: darkcyan;
+    color: aliceblue;
+  }
+  #limiboxmain {
+    margin-top: 51px;
+  }
+
+
+  #shopby {
+    margin-top: 51px;
+  }
+  #shopcat {
+    display: flex;
+    justify-content: space-between;
+  }
+  #shopcat > div {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #shopca {
+    display: flex;
+    justify-content: space-around;
+
+    gap: 10px;
+    width: 100%;
+
+    margin-top: 32px;
+  }
+  #shopca img {
+    /* width: 90%; */
+    border-radius: 20px;
+    width: 278px;
+  }
+  #explan {
+    margin-right: 17px;
+    border: none;
+    padding: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 7px;
+    color: white;
+    background-color: #499797;
+  }
+
+  #exbox {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top: 51px;
+    justify-content: space-between;
+  }
+  #exbox2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #exbox3 {
+    display: flex;
+  }
+  #underex1 {
+    align-items: center;
+  }
+  #ex2box {
+    display: flex;
+    align-items: center;
+  }
+  #exh {
+    margin-right: 46px;
+  }

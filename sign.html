@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      #s {
+        display: flex;
+        margin: auto;
+        width: 70%;
+        margin-top: 70px; 
+        border-radius: 9px ; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      #lastdiv { 
+        display: flex;
+        padding-left: 12px;
+        padding-right: 12px;
+        justify-content: space-around;
+        margin-top: 95px;
+      }
+      #lastdiv button{
+        background-color: rgb(22, 163, 163);
+        border: none; 
+        padding: 12px 15px 7px 9px;
+        border-radius: 6px;
+        color: aliceblue;
+        text-align: center;
+      }
+      #nddiv{
+        margin-top: 51px;
+      }
+      #nddiv input{
+        display: block;
+        width: 50%;
+        margin-top: 12px; 
+        color: rgb(0, 0, 0);
+        /* border: 1px solid black; */
+        border-top: none;
+        border-right: none;
+        border-left: 2px solid black;
+        
+        border-bottom: 2px solid black;
+      }
+      img{
+        width: 100%;
+      }
+      .otp{
+        margin-top: 34px; 
+        color: aliceblue;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(9, 162, 155);
+        width: 100%;
+        height: 33px;
+
+      }
+
+    </style>
+    <div id="s">
+      <div>
+        <img
+          src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <div>
+          <h1>Sign In / Sign Up</h1>
+          <p>
+            Sign up or Sign in to access your orders, special offers, health
+            tips and more!
+          </p>
+        </div>
+        <div id="nddiv">
+          <p>Phone Number</p>
+          <input  placeholder="Enter Number" type="text" />
+          <button class="otp">Use OTP</button>
+        </div>
+        <div id="lastdiv">
+          <div><button>Google</button></div>
+          <div><button>Fackbook</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
