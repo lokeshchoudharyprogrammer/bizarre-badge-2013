@@ -117,46 +117,53 @@ header>div {
     margin-top: 21px;
     display: flex;
     gap: 26px;
-  }
-  #pay > h3 {
+}
+
+#pay>h3 {
     margin-top: 21px;
     font-style: oblique;
     font-weight: bold;
-  }
-  #payimg img {
+}
+
+#payimg img {
     width: 59%;
-  }
-  #payimg {
+}
+
+#payimg {
     display: flex;
     align-items: center;
-  }
-  #payimg a {
+}
+
+#payimg a {
     color: black;
     text-decoration: none;
-  }
+}
 
-  .sign {
+.sign {
     text-decoration: none;
     color: aliceblue;
-  }
-  .sign:hover {
+}
+
+.sign:hover {
     text-decoration: none;
     color: aliceblue;
-  }
+}
 
 
-  #limitbox {
+#limitbox {
     margin-top: 21px;
     display: flex;
     justify-content: space-between;
-  }
-  #limitbox > div {
+}
+
+#limitbox>div {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 8px;
     border-radius: 10px;
-  }
-  #limitbtn {
+}
+
+#limitbtn {
     border: none;
     border-radius: 13px;
     margin-left: 9px;
@@ -165,25 +172,33 @@ header>div {
     border-color: white;
     background-color: darkcyan;
     color: aliceblue;
-  }
-  #limiboxmain {
+}
+#hunderbox1 a{
+    color: black;
+    text-decoration: none;
+
+}
+
+#limiboxmain {
     margin-top: 51px;
-  }
+}
 
 
-  #shopby {
+#shopby {
     margin-top: 51px;
-  }
-  #shopcat {
+}
+
+#shopcat {
     display: flex;
     justify-content: space-between;
-  }
-  #shopcat > div {
+}
+
+#shopcat>div {
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
+}
 
-  #shopca {
+#shopca {
     display: flex;
     justify-content: space-around;
 
@@ -191,13 +206,15 @@ header>div {
     width: 100%;
 
     margin-top: 32px;
-  }
-  #shopca img {
+}
+
+#shopca img {
     /* width: 90%; */
     border-radius: 20px;
     width: 278px;
-  }
-  #explan {
+}
+
+#explan {
     margin-right: 17px;
     border: none;
     padding: 7px;
@@ -208,28 +225,34 @@ header>div {
     border-radius: 7px;
     color: white;
     background-color: #499797;
-  }
+    box-shadow: rgba(20, 158, 173, 0.25) 0px 54px 55px, rgba(15, 190, 219, 0.12) 0px -12px 30px, rgba(20, 140, 152, 0.12) 0px 4px 6px, rgba(0, 199, 181, 0.17) 0px 12px 13px, rgba(16, 136, 155, 0.09) 0px -3px 5px;
+   }
 
-  #exbox {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
+#exbox {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     margin-top: 51px;
     justify-content: space-between;
-  }
-  #exbox2 {
+}
+
+#exbox2 {
     display: flex;
     justify-content: space-between;
-  }
-  #exbox3 {
+}
+
+#exbox3 {
     display: flex;
-  }
-  #underex1 {
+}
+
+#underex1 {
     align-items: center;
-  }
-  #ex2box {
+}
+
+#ex2box {
     display: flex;
     align-items: center;
-  }
-  #exh {
+}
+
+#exh {
     margin-right: 46px;
-  }
+}
